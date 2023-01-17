@@ -1,6 +1,10 @@
+### DEBERA EJECUTAR ESTE ARCHIVO, PUESTO QUE ES EL PRINCIPAL
+# IMPORTAMOS LOS METODOS PARA EL CRUD EN EL DB
+
 from managerMensajes import actualizarMensaje, crearMensaje,eliminarMensaje,obtenerMensaje
 class App:
-
+    #AQUI LO QUE HACEMOS ES CREAR UNA INTERFAZ CLI CON LA QUE EL CLIENTE INTEREACTURÁ
+    ## Y AHORA TODOS LAS ACTIVIDADES 
     def menu(self):
         while True:
             print(
